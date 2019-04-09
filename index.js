@@ -6,7 +6,7 @@ const emails = [
   { title: 'ccc', date: 20190201, sender: 'test3@gmail.com' },
 ]
 
-// search by title 'bbb'
+// search by title 'ccc'
 console.log(R.pipe(
   R.filter(email => email.title.includes('ccc'))
 )(emails))
