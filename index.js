@@ -16,3 +16,5 @@ console.log(R.pipe(
   R.filter(email => email.date > 20190205), 
   R.filter(email => email.sender === 'test1@gmail.com'), 
 )(emails))
+
+// whatever searching you want to do ...
